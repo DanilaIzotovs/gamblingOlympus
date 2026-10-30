@@ -6,3 +6,6 @@ igri - ruletk, sloti, blackjack
 blackjack - Danila
 ruletka - Maksim
 Sloti - Edmund
+(vse sdelat otdelnimi .py failami, ja potom sam vse sovmeshu)
+
+opcija prosmotra profila gde budut prakticheski vse stati iz lista v LUDOKLISt
