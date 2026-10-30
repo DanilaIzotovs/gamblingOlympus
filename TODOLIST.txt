@@ -1,1 +1,1 @@
-
+sistema akkauntav i vhoda v akkaunt dla igri v kazik s pomosju specialnovo koda kotorij budet hranitsa u kazdovo igroka v LUDOKLIST (naprimer 9821390), kodi generirujutsa sami pri pomoshi random.randint
