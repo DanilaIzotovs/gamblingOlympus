@@ -1,3 +1,8 @@
-sistema akkauntav i vhoda v akkaunt dla igri v kazik s pomosju specialnovo koda kotorij budet hranitsa u kazdovo igroka v LUDOKLIST (naprimer 9821390), kodi generirujutsa sami pri pomoshi random.randint
+sistema akkauntav i vhoda v akkaunt dla igri v kazik s pomosju specialnovo koda kotorij budet hranitsa u kazdovo igroka v LUDOKLIST (naprimer 9821390), kodi generirujutsa sami pri pomoshi random.randint pri registaciijii
 
 sistema fri spinov kotorije dobavlajutsa na akkaount posle registracii v razmere 100 shtuk, sdelat cherez self.freespins (s dalneishimi fri spinami potom sami razberemsa)
+
+igri - ruletk, sloti, blackjack
+blackjack - Danila
+ruletka - Maksim
+Sloti - Edmund
