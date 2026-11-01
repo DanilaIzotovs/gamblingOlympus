@@ -1,12 +1,13 @@
-import json , random
+import json , random, os
 
 class Ludok:
-    def __init__(self,name,id,kod):
+    def __init__(self,name,balance,id,kod,bonuss):
         self.name = name
-        self.__balance = 0
+        self.__balance = balance
         self.id = id
         self.kod = kod
-        self.bonuss = False
+        self.bonuss = bonuss
+
     def giv_bal(self):
         kodd = input("Uzrakstiet savu kodu!:")
         if kodd == self.kod:
@@ -35,14 +36,18 @@ class Ludok:
     
 sp2 = Ludok(
     name = input("Uzrakstiet vards:"),
+    balance = 0,
+    id = random.randint(1, 99999),
     kod = input("Uzrakstiet kodu:"),
-    id = random.randint(1, 99999)
+    bonuss = False
 )
 sp2.predlok()
 print (sp2.Give_Inf())
 
-
-
+file_path = "LUDOKLIST.json"
+if not os.path.exists(file_path):
+    with open(file_path, "w", encoding="utf-8") as file:
+        json.dump([], file)
 
 with open("LUDOKLIST.json", "r", encoding="utf-8") as file:
         data= json.load(file)
