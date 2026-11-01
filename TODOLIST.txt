@@ -9,3 +9,5 @@ Sloti - Edmund
 (vse sdelat otdelnimi .py failami, ja potom sam vse sovmeshu)
 
 opcija prosmotra profila gde budut prakticheski vse stati iz lista v LUDOKLISt
+
+princip raboti: pri zapuske prilozenije teba viprashivajut kod dostupa k akkauntu kotoroje est v databaze ludoklist.json (spisok klientov). kod generirujetsa po mere registraciji cherez fail.py. nado sovmestit faili ruletka.py, blackjack.py, caz slots i kolm.py v odin. posle koda budet vibor prestupit k igram (k blackjack, slots, rulekta), libo posmotret statu svoejo akka libo ze depnut. ostalnojoe dodumajte sami. 
