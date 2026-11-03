@@ -1,4 +1,4 @@
-import random,json,os
+import random,json
 
 class Ludok:
     def __init__(self,name,balance,id,kod,bonuss):
