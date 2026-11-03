@@ -1,13 +1,5 @@
-sistema akkauntav i vhoda v akkaunt dla igri v kazik s pomosju specialnovo koda kotorij budet hranitsa u kazdovo igroka v LUDOKLIST (naprimer 9821390), kodi generirujutsa sami pri pomoshi random.randint pri registaciijii
+Сделать всё в 1 файле, использовать Tkinter как интерфейс, каждому классу надо сделать обьяснение в """..."""
 
-sistema fri spinov kotorije dobavlajutsa na akkaount posle registracii v razmere 100 shtuk, sdelat cherez self.freespins (s dalneishimi fri spinami potom sami razberemsa)
+Сделать вип лудка, который может смотреть сколько он может выйграть в какой-нибудь через геттер игре, короче да
 
-igri - ruletk, sloti, blackjack
-blackjack - Danila
-ruletka - Maksim
-Sloti - Edmund
-(vse sdelat otdelnimi .py failami, ja potom sam vse sovmeshu)
-
-opcija prosmotra profila gde budut prakticheski vse stati iz lista v LUDOKLISt
-
-princip raboti: pri zapuske prilozenije teba viprashivajut kod dostupa k akkauntu kotoroje est v databaze ludoklist.json (spisok klientov). kod generirujetsa po mere registraciji cherez fail.py. nado sovmestit faili ruletka.py, blackjack.py, caz slots i kolm.py v odin. posle koda budet vibor prestupit k igram (k blackjack, slots, rulekta), libo posmotret statu svoejo akka libo ze depnut. ostalnojoe dodumajte sami. 
+сделать баланс как приват функцию
